@@ -1,0 +1,19 @@
+.tic-tac-toe-box {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 5px solid black;
+}
+
+.tile {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
